@@ -9,7 +9,7 @@ export const routes: Routes = [
         component: CompA
     },
     {
-        path: "compb",
+        path: "compb/:myParam",
         component: CompB
     }
 

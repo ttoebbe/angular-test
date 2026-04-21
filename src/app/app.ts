@@ -1,6 +1,5 @@
 import { Component, signal } from '@angular/core';
 import { RouterLink,RouterOutlet } from '@angular/router';
-import { Header } from './header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +8,6 @@ import { Header } from './header/header.component';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('angular-test');
+  myVar = "hello_world";
+  // protected readonly title = signal('angular-test');
 }
