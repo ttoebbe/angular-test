@@ -11,6 +11,14 @@ export const routes: Routes = [
     {
         path: "compb/:myParam",
         component: CompB
+    }, 
+    {
+        path: "compc",
+        redirectTo: ""
+    },
+    {
+        path: "**",
+        redirectTo: ""
     }
 
 ];
