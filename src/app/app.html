@@ -1,3 +1,13 @@
 <a [routerLink]="['compb', myVar ]">Moin, ich bin ein LINK</a>
 
+
+
+
+<h1> wir nutzen pipes</h1>
+
+<p> {{ price | currency: 'EUR' }} </p>
+<p> {{ data | json }} </p>
+
+<p> {{ textvar | truncate }} </p>
+
 <router-outlet></router-outlet> 
